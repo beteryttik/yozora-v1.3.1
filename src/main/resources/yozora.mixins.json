@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "ru.yozora.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "injectors": { "defaultRequire": 1 },
+  "client": [
+    "ParticleCullMixin",
+    "EntityCullMixin",
+    "ZoomMixin",
+    "NoHurtCamMixin"
+  ]
+}

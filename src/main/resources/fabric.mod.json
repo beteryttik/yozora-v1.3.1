@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "yozora",
+  "version": "${version}",
+  "name": "Yozora Client",
+  "description": "Performance optimizations, HUD modules and visuals for Fabric 1.21.11",
+  "authors": ["betyrytjk"],
+  "license": "MIT",
+  "icon": "assets/yozora/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.yozora.Yozora"]
+  },
+  "mixins": [
+    "yozora.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
